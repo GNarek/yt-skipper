@@ -21,8 +21,10 @@ Still, the safest option is to start your playlist before you set off and not to
 
 1. On your phone, download **YT-Skipper-x.y.z.apk** from the [Releases page](https://github.com/GNarek/yt-skipper/releases/latest) and open it.
 2. If Android asks, allow your browser or Files app to **install unknown apps**.
-3. If **Google Play Protect** warns about an unknown app, tap **More details → Install anyway**.
-   (The app isn't on the Play Store, so Play Protect doesn't know it.)
+3. **"App blocked to protect your device" (Google Play Protect):** Play Protect blocks every app from outside the
+   Play Store that uses Accessibility, and there's no "Install anyway". To install anyway:
+   **Play Store → your profile picture → Play Protect → ⚙ → turn off "Scan apps with Play Protect"** → install
+   the APK → **turn it back on right away**.
 
 ## Set up (about 1 minute)
 
@@ -48,11 +50,17 @@ While YT Skipper runs, it shows a silent notification:
 | ! **Setup not finished** | A step is missing; tap to open the app |
 | No notification | YT Skipper is off |
 
-Use **Pause / Resume** right in the notification. Tap the notification to open the app.
+Use **Pause / Resume** right in the notification. **Turn off** switches YT Skipper off completely (see banking
+below). Tap the notification to open the app.
 If you swipe it away, it comes back the next time you open YouTube. You can turn it off in the app.
 
 ## Troubleshooting
 
+- **My banking app refuses to work:** many banking apps won't run while an accessibility app from outside the
+  Play Store is on (Pause isn't enough). Tap **Turn off** in the YT Skipper notification, use your bank, then open
+  YT Skipper and follow step 1 to turn it back on.
+- **"Controlled by restricted setting" / "App was denied access":** go to **Settings → Apps → YT Skipper → ⋮
+  (top right) → Allow restricted settings**, then turn YT Skipper on again.
 - **It stopped working / the notification disappeared:** open YT Skipper and follow the checklist again.
   Don't use **Force stop** on YT Skipper: that switches it off.
 - **A red round accessibility button appeared:** that's Android's accessibility shortcut, and tapping it turns
