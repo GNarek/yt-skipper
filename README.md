@@ -32,26 +32,28 @@ Open **YT Skipper**. It shows a checklist; each step has a button that opens the
    - **Switch greyed out** or "Restricted setting" (Android 13+)? Go to **Settings → Apps → YT Skipper → ⋮ (top right) →
      Allow restricted settings**, then try again.
 2. **Allow unrestricted battery use**: tap **Allow** in the dialog, so Android never stops YT Skipper.
+3. **Allow notifications** (recommended, Android 13+): tap **Allow**, so YT Skipper can show its status notification.
 
 When the top of the app turns **green: Working**, you're done. You can close the app; it keeps working in the
 background and after a restart.
 
-## The floating button
+## The status notification
 
-While YT Skipper runs, a small round button sits on the edge of the screen:
+While YT Skipper runs, it shows a silent notification:
 
-| Button | Meaning |
+| Notification | Meaning |
 |---|---|
-| 🟢 Green | Working, ads are skipped |
-| 🟠 Orange | Running, but a setup step is missing (open the app) |
-| ⚪ Grey | Paused |
-| No button | YT Skipper is off |
+| ▶\| **On · skipping YouTube ads** | Working; shows how many ads were skipped |
+| ❚❚ **Paused · ads are not skipped** | Paused; tap **Resume** |
+| ! **Setup not finished** | A step is missing; tap to open the app |
+| No notification | YT Skipper is off |
 
-**Tap** it to pause or resume, **hold** it to open the app, **drag** it to move it. It can be hidden in the app.
+Use **Pause / Resume** right in the notification. Tap the notification to open the app.
+If you swipe it away, it comes back the next time you open YouTube. You can turn it off in the app.
 
 ## Troubleshooting
 
-- **It stopped working / the button disappeared:** open YT Skipper and follow the checklist again.
+- **It stopped working / the notification disappeared:** open YT Skipper and follow the checklist again.
   Don't use **Force stop** on YT Skipper: that switches it off.
 - **A red round accessibility button appeared:** that's Android's accessibility shortcut, and tapping it turns
   YT Skipper off. Remove it: **Settings → Accessibility → YT Skipper → YT Skipper shortcut → off**.
@@ -63,6 +65,9 @@ While YT Skipper runs, a small round button sits on the edge of the screen:
 
 Download the new APK from the [Releases page](https://github.com/GNarek/yt-skipper/releases) and install it over
 the old one. Your settings stay.
+
+**Updating from 1.0.0:** the round floating button is replaced by the status notification. Open the app once and
+tap **Allow** under "Allow notifications".
 
 ---
 
